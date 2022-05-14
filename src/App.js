@@ -4,29 +4,8 @@ import StockForm from './Components/StockForm/StockForm';
 import StockList from './Components/StockList/StockList';
 
 function App() {
-  let [stockItems, setStockItems] = React.useState([
-    {
-      name: 'Alibaba',
-      ticker: 'BABA', 
-      key: 1
-    },
-    {
-      name: 'Barrick Gold',
-      ticker: 'GOLD',
-      key: 2
-    },
-    {
-      name: 'AT&T', 
-      ticker: 'T', 
-      key: 3
-    },
-    {
-      name: 'Starbucks',
-      ticker: 'SBUX',
-      key: 4
-    }
-  ]);
-  let [nextKey, setNextKey] = React.useState(5);
+  let [stockItems, setStockItems] = React.useState([]);
+  let [nextKey, setNextKey] = React.useState(1);
   const addStock = (name, ticker) => {
     setStockItems(
       [...stockItems, {name, ticker, key: nextKey}]
