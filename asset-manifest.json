@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-stock-watchlist/static/css/main.490a5972.css",
+    "main.js": "/react-stock-watchlist/static/js/main.03faeac6.js",
+    "static/js/787.73dec64a.chunk.js": "/react-stock-watchlist/static/js/787.73dec64a.chunk.js",
+    "index.html": "/react-stock-watchlist/index.html",
+    "main.490a5972.css.map": "/react-stock-watchlist/static/css/main.490a5972.css.map",
+    "main.03faeac6.js.map": "/react-stock-watchlist/static/js/main.03faeac6.js.map",
+    "787.73dec64a.chunk.js.map": "/react-stock-watchlist/static/js/787.73dec64a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.490a5972.css",
+    "static/js/main.03faeac6.js"
+  ]
+}
