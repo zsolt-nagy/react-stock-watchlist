@@ -9,7 +9,8 @@ export default function StockList(props) {
         ticker={item.ticker}
         key={item.key}
         id={item.key}
-        deleteStock={props.deleteStock} />  
+        deleteStock={props.deleteStock}
+        move={props.move} />  
   );
   return (
     <ul className="watch-list">
